@@ -35,7 +35,7 @@ or
 yarn add react-confirmation-modal
 ```
 
-Usage
+### Usage
 
 Once you've installed the package, you can use React Confirmation Modal in your React components.
 
