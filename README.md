@@ -28,16 +28,18 @@ You can install React Confirmation Modal using npm or yarn.
 
 ```bash
 npm install react-confirmation-modal
+```
 or
 
-bash
-Copy code
+```bash
 yarn add react-confirmation-modal
+```
+
 Usage
+
 Once you've installed the package, you can use React Confirmation Modal in your React components.
 
-javascript
-Copy code
+```bash
 import React, { useState } from 'react';
 import ConfirmationModal from 'react-confirmation-modal';
 import 'react-confirmation-modal/dist/ConfirmationModal.css';
@@ -72,6 +74,7 @@ const MyComponent = () => {
 };
 
 export default MyComponent;
+```
 
 Contributing
 ---
