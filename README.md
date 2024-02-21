@@ -26,14 +26,18 @@ Before you begin, make sure you have the following dependencies installed:
 
 You can install React Confirmation Modal using npm or yarn.
 
-npm install projet_14_npm_modal
+```bash
+npm install react-confirmation-modal
 or
-yarn add projet_14_npm_modal
 
-#### Usage
-
+bash
+Copy code
+yarn add react-confirmation-modal
+Usage
 Once you've installed the package, you can use React Confirmation Modal in your React components.
 
+javascript
+Copy code
 import React, { useState } from 'react';
 import ConfirmationModal from 'react-confirmation-modal';
 import 'react-confirmation-modal/dist/ConfirmationModal.css';
@@ -47,6 +51,11 @@ const MyComponent = () => {
 
   const closeModal = () => {
     setIsModalOpen(false);
+  };
+
+  const handleConfirm = () => {
+    // Handle the confirmation action
+    closeModal();
   };
 
   return (
@@ -63,3 +72,9 @@ const MyComponent = () => {
 };
 
 export default MyComponent;
+
+Contributing
+---
+
+License
+---
